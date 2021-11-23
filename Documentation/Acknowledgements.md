@@ -9,5 +9,5 @@ We would like to thank the following people for helping to make BuildCounter 2.0
   *(Allows rendering of emojis within WPF windows)*
 - [MahApps.Metro](https://mahapps.com/docs/guides/quick-start)
   *(Allows for rendering of modern-style Windows 8/10 Controls)*
-- [Alimbada]
+- Alimbada
   *(Make WPF buttons look like buttons shipped with Windows 8, using this [gist](https://gist.github.com/alimbada/3083937))*
