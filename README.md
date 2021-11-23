@@ -1,5 +1,8 @@
 ## BuildCounter 2.0
-A useful tool for counting builds throughout development. This will assist with changelogs also. 
+A useful tool for counting builds throughout development, as well as creating changelogs without having to go through hundreds of commit messages. This will assist with changelogs also. 
+
+### Framework
+This is a .NET 6 Windows Presentation Foundation project written in C# 9. The idea is to keep dependencies to a minimum, and make sure that we are using NuGet dependencies where possible to ensure a frustration-free collaberation experience. 
 
 ### Development
 This project is currently **unfinished** and will be in development for some time yet. Here's a list of the features I plan to add:
