@@ -6,15 +6,27 @@
     <RootNamespace>BuildCounter2._0</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <LangVersion>10.0</LangVersion>
     <ApplicationIcon>counter.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\counter480.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="counter.ico" />
+    <Resource Include="Images\counter480.png" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Emoji.Wpf" Version="0.3.3" />
+    <PackageReference Include="MahApps.Metro" Version="2.4.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+    <Folder Include="Util\SettingsStorage\" />
   </ItemGroup>
 
 </Project>
